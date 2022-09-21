@@ -1,0 +1,101 @@
+.moeda-app
+{
+  background: #010606;
+}
+.moeda-container {
+    display: flex;
+    justify-content: center;
+    background: #010606;
+  }
+  
+  .moeda1-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+  }
+  
+  .moeda {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+    /* background-color: black; */
+  }
+  
+  .moeda h2 {
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .moeda img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .moeda-symbol {
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .moeda-data {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  
+  .moeda-price {
+    width: 110px;
+    color: white;
+  }
+  
+  .moeda-volume {
+    width: 155px;
+    color: white;
+  }
+  
+  .moeda-marketcap {
+    width: 230px;
+    color: white;
+  }
+  
+  .moeda-percent {
+    width: 100px;
+  }
+  
+  .red {
+    color: #f00606;
+  }
+  
+  .green {
+    color: #1146d8;
+  }
+  @media screen and (0px<=width<=480px) {
+    .moeda-app{
+      width: 375px;
+    }
+    .moeda-container{
+        display:initial;
+        /* width: 100px; */
+        /* background: #010606; */
+       
+    }
+    .moeda1-row {
+      display: initial;
+      border:none;
+      /* background: #010606; */
+    }
+
+    .moeda-data{
+      display: initial;
+      justify-content: left;
+      text-align: left;
+      /* background-color: black; */
+    }
+  }

@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.data-table{
+  width: 100%;
+  box-shadow: rgb(235,235, 235) 0px 0px 0px 1px;
+  border-radius: 25px;
+  border-style: hidden;
+}
+.data-th{
+  font-size: 1rem;
+  font-weight: 500;
+  user-select: none;
+  border-radius: 25px;
+  padding: 20px 10px;
+  border-bottom: 3px solid rgb(242, 244, 255);
+}
+.data-tr{
+  font-size: 1rem;
+  font-weight: 500;
+  user-select: none;
+  padding: 20px 10px;
+  border-bottom: 3px solid rgb(242, 244, 255);
+}
+.data-td{
+  font-size: 1rem;
+  font-weight: 500;
+  user-select: none;
+  padding: 20px 10px;
+  border-bottom: 3px solid rgb(242, 244, 255);
+}

@@ -1,0 +1,191 @@
+.my_orders_full {
+  position: absolute;
+  left: 94px;
+  top: 47px;
+  background-color: white;
+  width: calc(100% - 94px);
+  height: calc(100% - 46px);
+  min-height: $content-min-height;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2);
+  border-top-right-radius: 5px;
+  overflow-x: hidden;
+  padding-left: 2em;
+  padding-right: 2em;
+  z-index: 2;
+  .checkbox-label {
+    margin-left: 8px;
+    position: relative;
+    top: 1px;
+  }
+  .body {
+    margin-top: 1.75em;
+  }
+  .arrow {
+    div {
+      position: relative;
+      svg path {
+        color: #f26451 !important;
+        fill:  #f26451 !important;
+        opacity: 1;
+      }
+      svg {
+        position: relative;
+        top: 1px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .table {
+    @media (max-width: 1439px) {
+      font-size: 13px;
+    }
+    thead {
+      tr {
+        th {
+          opacity: 0.7;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          padding-top: 18px;
+          padding-bottom: 16px;
+        }
+      }
+    }
+    .it_cycle_times {
+      width: 32px;
+      height: 32px;
+      div {
+        position: relative;
+        svg {
+          position: relative;
+          top: -4px;
+        }
+      }
+    }
+  }
+  .it-btn-group {
+    height: 32px;
+    .it-btn {
+      padding-top: 0.75em;
+    }
+    .it-btn.active {
+      height: 32px;
+    }
+  }
+  .col {
+    padding: 0;
+  }
+  .form-control-sm {
+    height: 23px;
+  }
+  .export_btn_small, .export_btn_big {
+    background-color: #f5f7fa !important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    padding: 0.3rem 0.75rem;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .export_btn_small {
+    display: none;
+    @media (max-width: 1430px) {
+      display: block;
+    }
+  }
+  .export_btn_big {
+    display: block;
+    margin-right: 25px;
+    @media (max-width: 1430px) {
+      display: none;
+    }
+  }
+  .progress {
+    height: 14px;
+    border-radius: 1rem;
+  }
+  .progress-bar {
+    text-align: left;
+    padding-left: .5em;
+    border-radius: 50px;
+  }
+  .progress-block {
+    position: relative;
+    .col-12 {
+      padding-right: 20px;
+      .progress {
+        position: relative;
+      }
+      .times {
+        position: absolute;
+        right: 0;
+        top: -6px;
+      }
+    }
+  }
+  .counter-list {
+    ul {
+      margin-left: -20px;
+      margin-right: 20px;
+      li {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 5px;
+        &:after {
+          content:'';
+          display: block;
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          height: 6px;
+          border-top: 1px dotted #666;
+        }
+        .key {
+          display: inline-block;
+          position: relative;
+          z-index: 2;
+          background: #fff;
+          padding-right: 5px;
+        }
+        .value {
+          display: block;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          z-index: 2;
+          background: #fff;
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+  .form-rm {
+    margin-right: 32px;
+  }
+  @media (max-width: 1439px) {
+    padding-left: 0;
+    .checkbox-label {
+      font-size: 12px;
+    }
+    .form-rm {
+      margin-right: 14px;
+    }
+    .dropdown .btn.btn-light.small {
+      font-size: 14px;
+      padding: 0.32rem 0.5rem;
+    }
+    .table th, .table td {
+      padding: 0.75rem 5px;
+    }
+    .progress {
+      .progress-bar {
+        line-height: 20px;
+        font-size: 9px;
+      }
+    }
+  }
+}

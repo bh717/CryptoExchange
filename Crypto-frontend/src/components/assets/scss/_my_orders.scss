@@ -1,0 +1,105 @@
+.my_orders {
+  position: absolute;
+  left: 94px;
+  top: 47px;
+  width: auto;
+  background-color: white;
+  height: calc(100% - 46px);
+  min-height: $content-min-height;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2);
+  border-top-right-radius: 5px;
+  z-index: 2;
+  overflow-y: scroll;
+  .icons {
+    position: relative;
+    div:first-child {
+      position: relative;
+      top: 1px;
+    }
+    svg {
+      opacity: 0.6;
+    }
+  }
+  > div:first-child {
+    transition: opacity 200ms;
+  }
+  .it-btn-group {
+    margin-top: 0.6em;
+  }
+  svg.icon {
+    path {
+      opacity: 0.8;
+      width: 12px;
+    }
+  }
+  .col {
+    padding: 0;
+  }
+  .progress {
+    height: 14px;
+    border-radius: 1rem;
+  }
+  .progress-bar {
+    text-align: left;
+    padding-left: .5em;
+    border-radius: 50px;
+  }
+  .progress-block {
+    position: relative;
+    .progress {
+      width: 234px;
+    }
+    svg {
+      margin-left: 10px;
+      position: relative;
+      top: -2px;
+    }
+  }
+  .counter-list {
+    ul {
+      margin-left: -40px;
+      li {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 5px;
+        &:after {
+          content:'';
+          display: block;
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          height: 6px;
+          border-top: 1px dotted #666;
+        }
+        .key {
+          display: inline-block;
+          position: relative;
+          z-index: 2;
+          background: #fff;
+          padding-right: 5px;
+        }
+        .value {
+          display: block;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          z-index: 2;
+          background: #fff;
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+  .btn {
+    padding: 5px 35px;
+    font-size: 12px;
+  }
+  .row-sections {
+    > .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}

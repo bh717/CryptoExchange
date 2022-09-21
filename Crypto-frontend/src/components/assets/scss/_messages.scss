@@ -1,0 +1,109 @@
+.it-messages {
+  .badge {
+    padding: 0.4em 1.0em;
+    padding-top: 0.6em;
+    span {
+      color: white !important;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+  .profit {
+    margin-top: -1px;
+    margin-left: 2em;
+    img {
+      width: 27px;
+      height: 27px;
+    }
+    .text {
+      margin-top: 4px;
+      line-height: 10px;
+      margin-left: 5px;
+    }
+  }
+  .search {
+    margin: 0 auto;
+    input {
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px;
+      background-color: #f5f7fa;
+    }
+    .input-group-append {
+      .input-group-text {
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #f5f7fa;
+      }
+    }
+  }
+  .new-message {
+    width: 27px;
+    height: 27px;
+    position: relative;
+    top: 6px;
+    left: -10px;
+  }
+  .list-group {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .list-group-item {
+    padding-bottom: 0;
+  }
+  .list-group-item.active {
+    z-index: 0;
+  }
+  .contact-list {
+    padding-right: 35px;
+    padding-left: 35px;
+    .badge {
+      padding: 0.4em 0.7em;
+      padding-top: 0.6em;
+    }
+  }
+  .chat {
+    margin-top: 62px;
+    height: 650px;
+    border-radius: 4px;
+    background-color: #f5f7fa;
+    border: solid 1px #e2e2e2;
+    padding-left: 26px;
+    padding-right: 46px;
+    overflow-y: scroll;
+    .message {
+      padding-top: 31px;
+      .double-check {
+        width: 16px;
+        height: 8px;
+      }
+    }
+  }
+  .text-block {
+    position: relative;
+    top: -5px;
+    background-color: #eceff4;
+    box-shadow: 0 -3px 3px 0 rgba(0, 0, 0, 0.02), 0 -2px 2px 0 rgba(0, 0, 0, 0.02), 0 -1px 1px 0 rgba(0, 0, 0, 0.02);
+    border: solid 1px #cecece;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-top: 16px;
+    padding-right: 46px;
+    .textarea {
+      height: 151px;
+    }
+  }
+  .trader {
+    position: relative;
+    margin: 0 auto;
+    > div.it-trade_bio {
+      margin-top: 62px;
+    }
+  }
+  .btn-send {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 0.375rem 1.6rem;
+    &:hover {
+      background-color: whitesmoke;
+    }
+  }
+}

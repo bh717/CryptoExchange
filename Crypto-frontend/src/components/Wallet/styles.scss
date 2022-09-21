@@ -1,0 +1,129 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.it_wallet {
+  
+  .wallet-icon-gr {
+    margin-top: 22px;
+    margin-left: 41px;
+    .wallet-icon {
+      div {
+        img {
+          height: 34px;
+        }
+      }
+      p {
+        margin-top: 8px;
+      }
+      margin-right: 52px;
+    }
+    .not_active {
+      p {
+        opacity: 0.8;
+        border-bottom: 1px dotted;
+      }
+    }
+  }
+  .vertical-hr {
+    width: 2px;
+    height: 20px;
+    opacity: 0.1;
+    background-color: #1b1f2b;
+    margin-top: 6.5px;
+  }
+  .info-block {
+    margin-top: 45px;
+  }
+  .oval {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  .cr-logo {
+    width: 82px;
+    height: auto;
+  }
+  .progress {
+    .progress-bar {
+      border-right: 1px solid white;
+      .progress_text {
+        opacity: 0.5;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color: #000000;
+      }
+    }
+    .progress-bar:last-child {
+      border-right: 0;
+    }
+  }
+  .currency-block {
+    margin-top: 45px;
+    .card {
+      background-color: #f5f7fa;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      width: 210px;
+      height: 102px;
+      margin-top: 2px;
+      .add_carrency {
+        width: 36px;
+        height: 36px;
+        margin: 0 auto;
+        background-color: #f5f7fa;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 38px;
+        padding-left: 2px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.18);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        position: relative;
+        svg {
+          position: relative;
+          top: -1px;
+          left: -1px;
+        }
+      }
+    }
+    .card:first-child {
+      margin-top: 0;
+    }
+    .card_active {
+      background-color: #fff9e8;
+      box-shadow: 0 0 4px 0 #ffa933, inset 0 0 7px 0 #ffa933;
+      border: 1px solid #deaf6f;
+    }
+    .current_currency {
+      margin-top: 36px;
+      .big_top_p {
+        padding-top: 4em;
+      }
+      .big_top_p:last-child {
+        padding-top: 4.5em;
+      }
+      .oval-big {
+        width: 70px;
+        height: 70px;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        text-align: center;
+        font-size: 32px;
+        line-height: 70px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        position: relative;
+        svg {
+          position: relative;
+          top: 5px;
+        }
+        svg.oval-big-svg {
+          top: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.moeda-app
+{
+  background: #010606;
+}
+.moeda-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .moeda-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 600px;
+  }
+  
+  .moeda {
+    display: flex;
+    position: relative;
+    /*align-items: center;*/
+    padding-right: 24px;
+    min-width: 100px;
+    /*justify-content: space-between;*/
+  }
+  
+  .moeda h2 {
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .moeda img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  .moeda p {
+    /*height: 30px;
+    width: 30px;*/
+    /*margin-right: 10px;*/
+  }
+  
+  .moeda-symbol {
+    text-transform: uppercase;
+  }
+  
+  .moeda-data {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .moeda-price {
+    /*width: 110px;*/
+  }
+  
+  .moeda-volume {
+    width: 155px;
+  }
+  
+  .moeda-marketcap {
+    width: 230px;
+  }
+  
+  .moeda-percent {
+    width: 100px;
+  }
+  
+  .red {
+    color: #f00606;
+  }
+  
+  .green {
+    color: #1146d8;
+  }
+  @media screen and (0px<=width<=480px) {
+    .moeda-container{
+        display:initial;
+    }
+    .moeda-row {
+      display: fixed;
+      border-bottom: 1px solid white;
+          justify-content: center;
+    }
+    .moeda-data{
+      display: initial;
+      justify-content: right;
+      text-align: left;
+    }
+  }

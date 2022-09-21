@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80e66c4b.css",
+    "main.js": "/static/js/main.57730464.js",
+    "static/js/787.f436216a.chunk.js": "/static/js/787.f436216a.chunk.js",
+    "static/media/background.jpg": "/static/media/background.2d893b35568e9a3157ac.jpg",
+    "static/media/pic02.webp": "/static/media/pic02.a4f330ccacace9d42d88.webp",
+    "static/media/pic03.webp": "/static/media/pic03.8aeae01e8c4358cfd450.webp",
+    "static/media/pic01.webp": "/static/media/pic01.6f52d335465a262ce945.webp",
+    "static/media/CIcon5.png": "/static/media/CIcon5.1d13a1294d2daa05c3b8.png",
+    "static/media/CIcon2.png": "/static/media/CIcon2.28ecea353b900f954658.png",
+    "static/media/pic04.webp": "/static/media/pic04.74b33c1edba480df519b.webp",
+    "static/media/CIcon6.png": "/static/media/CIcon6.f0513f6daafc02576118.png",
+    "static/media/CIcon3.png": "/static/media/CIcon3.59e1033b7c012df7af84.png",
+    "static/media/ETH.jpg": "/static/media/ETH.1472bdb44f0d9ffd9c72.jpg",
+    "static/media/USDT.jpg": "/static/media/USDT.0741616f7d40e55e7e5a.jpg",
+    "static/media/BTC.jpg": "/static/media/BTC.d757542db2a4e8e61b07.jpg",
+    "index.html": "/index.html",
+    "static/media/logo.svg": "/static/media/logo.4e85a005e6327b943f343af9ab8f7dd8.svg",
+    "main.80e66c4b.css.map": "/static/css/main.80e66c4b.css.map",
+    "main.57730464.js.map": "/static/js/main.57730464.js.map",
+    "787.f436216a.chunk.js.map": "/static/js/787.f436216a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80e66c4b.css",
+    "static/js/main.57730464.js"
+  ]
+}
